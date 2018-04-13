@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0943B2811FCD9D3B004FA518 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0943B2801FCD9D3B004FA518 /* Inceptionv3.mlmodel */; };
+		0943B2CA1FCEA725004FA518 /* RealTimeDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0943B2C91FCEA725004FA518 /* RealTimeDetectionViewController.swift */; };
+		0943B2CF1FCEA835004FA518 /* VideoCameraType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0943B2CC1FCEA835004FA518 /* VideoCameraType.swift */; };
+		0943B2D01FCEA835004FA518 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0943B2CD1FCEA835004FA518 /* VideoCapture.swift */; };
+		0943B2D11FCEA835004FA518 /* AVCaptureDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0943B2CE1FCEA835004FA518 /* AVCaptureDevice+Extension.swift */; };
 		099A87BF1FCB09340063E3F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099A87BE1FCB09340063E3F8 /* AppDelegate.swift */; };
-		099A87C11FCB09340063E3F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099A87C01FCB09340063E3F8 /* ViewController.swift */; };
 		099A87C41FCB09340063E3F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 099A87C21FCB09340063E3F8 /* Main.storyboard */; };
 		099A87C61FCB09340063E3F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 099A87C51FCB09340063E3F8 /* Assets.xcassets */; };
 		099A87C91FCB09340063E3F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 099A87C71FCB09340063E3F8 /* LaunchScreen.storyboard */; };
 		099A87D41FCB09350063E3F8 /* samsaraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099A87D31FCB09350063E3F8 /* samsaraTests.swift */; };
 		099A87DF1FCB09350063E3F8 /* samsaraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099A87DE1FCB09350063E3F8 /* samsaraUITests.swift */; };
+		099A87ED1FCB0AA50063E3F8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099A87EC1FCB0AA50063E3F8 /* MainViewController.swift */; };
+		099A87EF1FCB0EE30063E3F8 /* MainFeatureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099A87EE1FCB0EE30063E3F8 /* MainFeatureCell.swift */; };
+		099A87F31FCB135B0063E3F8 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099A87F21FCB135B0063E3F8 /* SampleData.swift */; };
+		099A87F51FCD39C00063E3F8 /* ObjectDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099A87F41FCD39C00063E3F8 /* ObjectDetectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0943B2801FCD9D3B004FA518 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		0943B2C91FCEA725004FA518 /* RealTimeDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealTimeDetectionViewController.swift; sourceTree = "<group>"; };
+		0943B2CC1FCEA835004FA518 /* VideoCameraType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCameraType.swift; sourceTree = "<group>"; };
+		0943B2CD1FCEA835004FA518 /* VideoCapture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
+		0943B2CE1FCEA835004FA518 /* AVCaptureDevice+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVCaptureDevice+Extension.swift"; sourceTree = "<group>"; };
 		099A87BB1FCB09340063E3F8 /* samsara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = samsara.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		099A87BE1FCB09340063E3F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		099A87C01FCB09340063E3F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		099A87C31FCB09340063E3F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		099A87C51FCB09340063E3F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		099A87C81FCB09340063E3F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +59,10 @@
 		099A87DA1FCB09350063E3F8 /* samsaraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = samsaraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		099A87DE1FCB09350063E3F8 /* samsaraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = samsaraUITests.swift; sourceTree = "<group>"; };
 		099A87E01FCB09350063E3F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		099A87EC1FCB0AA50063E3F8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		099A87EE1FCB0EE30063E3F8 /* MainFeatureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFeatureCell.swift; sourceTree = "<group>"; };
+		099A87F21FCB135B0063E3F8 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		099A87F41FCD39C00063E3F8 /* ObjectDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectDetectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +90,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0943B2821FCD9D47004FA518 /* ML Model */ = {
+			isa = PBXGroup;
+			children = (
+				0943B2801FCD9D3B004FA518 /* Inceptionv3.mlmodel */,
+			);
+			path = "ML Model";
+			sourceTree = "<group>";
+		};
+		0943B2CB1FCEA835004FA518 /* VideoCapture */ = {
+			isa = PBXGroup;
+			children = (
+				0943B2CC1FCEA835004FA518 /* VideoCameraType.swift */,
+				0943B2CD1FCEA835004FA518 /* VideoCapture.swift */,
+				0943B2CE1FCEA835004FA518 /* AVCaptureDevice+Extension.swift */,
+			);
+			path = VideoCapture;
+			sourceTree = "<group>";
+		};
 		099A87B21FCB09340063E3F8 = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +131,12 @@
 		099A87BD1FCB09340063E3F8 /* samsara */ = {
 			isa = PBXGroup;
 			children = (
+				0943B2CB1FCEA835004FA518 /* VideoCapture */,
+				0943B2821FCD9D47004FA518 /* ML Model */,
+				099A87F81FCD3A000063E3F8 /* Model */,
+				099A87F71FCD39EE0063E3F8 /* Custiom Views */,
+				099A87F61FCD39CC0063E3F8 /* View Controller */,
 				099A87BE1FCB09340063E3F8 /* AppDelegate.swift */,
-				099A87C01FCB09340063E3F8 /* ViewController.swift */,
 				099A87C21FCB09340063E3F8 /* Main.storyboard */,
 				099A87C51FCB09340063E3F8 /* Assets.xcassets */,
 				099A87C71FCB09340063E3F8 /* LaunchScreen.storyboard */,
@@ -123,6 +161,32 @@
 				099A87E01FCB09350063E3F8 /* Info.plist */,
 			);
 			path = samsaraUITests;
+			sourceTree = "<group>";
+		};
+		099A87F61FCD39CC0063E3F8 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				099A87EC1FCB0AA50063E3F8 /* MainViewController.swift */,
+				099A87F41FCD39C00063E3F8 /* ObjectDetectionViewController.swift */,
+				0943B2C91FCEA725004FA518 /* RealTimeDetectionViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		099A87F71FCD39EE0063E3F8 /* Custiom Views */ = {
+			isa = PBXGroup;
+			children = (
+				099A87EE1FCB0EE30063E3F8 /* MainFeatureCell.swift */,
+			);
+			path = "Custiom Views";
+			sourceTree = "<group>";
+		};
+		099A87F81FCD3A000063E3F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				099A87F21FCB135B0063E3F8 /* SampleData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +323,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				099A87C11FCB09340063E3F8 /* ViewController.swift in Sources */,
 				099A87BF1FCB09340063E3F8 /* AppDelegate.swift in Sources */,
+				0943B2811FCD9D3B004FA518 /* Inceptionv3.mlmodel in Sources */,
+				0943B2CF1FCEA835004FA518 /* VideoCameraType.swift in Sources */,
+				0943B2D11FCEA835004FA518 /* AVCaptureDevice+Extension.swift in Sources */,
+				099A87EF1FCB0EE30063E3F8 /* MainFeatureCell.swift in Sources */,
+				0943B2D01FCEA835004FA518 /* VideoCapture.swift in Sources */,
+				0943B2CA1FCEA725004FA518 /* RealTimeDetectionViewController.swift in Sources */,
+				099A87ED1FCB0AA50063E3F8 /* MainViewController.swift in Sources */,
+				099A87F51FCD39C00063E3F8 /* ObjectDetectionViewController.swift in Sources */,
+				099A87F31FCB135B0063E3F8 /* SampleData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
