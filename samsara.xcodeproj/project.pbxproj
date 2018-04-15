@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09202AFF2082236100836E21 /* FacialAnalysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09202AFE2082236100836E21 /* FacialAnalysisViewController.swift */; };
 		0943B2811FCD9D3B004FA518 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0943B2801FCD9D3B004FA518 /* Inceptionv3.mlmodel */; };
 		0943B2CA1FCEA725004FA518 /* RealTimeDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0943B2C91FCEA725004FA518 /* RealTimeDetectionViewController.swift */; };
 		0943B2CF1FCEA835004FA518 /* VideoCameraType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0943B2CC1FCEA835004FA518 /* VideoCameraType.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09202AFE2082236100836E21 /* FacialAnalysisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacialAnalysisViewController.swift; sourceTree = "<group>"; };
 		0943B2801FCD9D3B004FA518 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 		0943B2C91FCEA725004FA518 /* RealTimeDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealTimeDetectionViewController.swift; sourceTree = "<group>"; };
 		0943B2CC1FCEA835004FA518 /* VideoCameraType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCameraType.swift; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 				099A87EC1FCB0AA50063E3F8 /* MainViewController.swift */,
 				099A87F41FCD39C00063E3F8 /* ObjectDetectionViewController.swift */,
 				0943B2C91FCEA725004FA518 /* RealTimeDetectionViewController.swift */,
+				09202AFE2082236100836E21 /* FacialAnalysisViewController.swift */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -252,7 +255,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0910;
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "이윤혜";
 				TargetAttributes = {
 					099A87BA1FCB09340063E3F8 = {
@@ -328,6 +331,7 @@
 				0943B2CF1FCEA835004FA518 /* VideoCameraType.swift in Sources */,
 				0943B2D11FCEA835004FA518 /* AVCaptureDevice+Extension.swift in Sources */,
 				099A87EF1FCB0EE30063E3F8 /* MainFeatureCell.swift in Sources */,
+				09202AFF2082236100836E21 /* FacialAnalysisViewController.swift in Sources */,
 				0943B2D01FCEA835004FA518 /* VideoCapture.swift in Sources */,
 				0943B2CA1FCEA725004FA518 /* RealTimeDetectionViewController.swift in Sources */,
 				099A87ED1FCB0AA50063E3F8 /* MainViewController.swift in Sources */,
@@ -401,6 +405,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -408,6 +413,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -419,6 +425,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = LBVT278F84;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -458,6 +465,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -465,6 +473,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -476,6 +485,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = LBVT278F84;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;

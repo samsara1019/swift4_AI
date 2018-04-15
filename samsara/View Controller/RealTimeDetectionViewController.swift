@@ -61,8 +61,11 @@ class RealTimeDetectionViewController: UIViewController {
     
     func handleObjectDetection(request: VNRequest, error: Error?){
         if let result = request.results?.first as? VNClassificationObservation{
-            self.categoryLabel.text = result.identifier
-            self.confidenceLabel.text = "\(String(format: "%.1f", result.confidence * 100))%"
+            DispatchQueue.main.async {
+                self.categoryLabel.text = result.identifier
+                self.confidenceLabel.text = "\(String(format: "%.1f", result.confidence * 100))%"
+            }
+            
         }
     }
 }
